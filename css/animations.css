@@ -1,0 +1,72 @@
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveParticles {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(1000px);
+    }
+}
+
+@keyframes colorShift {
+    0% {
+        --sparkle1: gold;
+        --sparkle2: orange;
+        --sparkle3: red;
+    }
+
+    33% {
+        --sparkle1: orange;
+        --sparkle2: red;
+        --sparkle3: gold;
+    }
+
+    66% {
+        --sparkle1: red;
+        --sparkle2: gold;
+        --sparkle3: orange;
+    }
+
+    100% {
+        --sparkle1: gold;
+        --sparkle2: orange;
+        --sparkle3: red;
+    }
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}

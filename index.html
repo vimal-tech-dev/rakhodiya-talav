@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rakhodiya Talav</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/gallery.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/google-map.css">
-    <link rel="stylesheet" href="css/scrollup.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/festive.css">
+
 </head>
 
 <body>
+    <!-- Festive background animation -->
+    <div class="particles"></div>
+
     <header>
         <h2>
             રાખોડિયા તળાવ ભગવાન શ્રી ગણેશ મહોત્સવ<br>
@@ -20,61 +30,42 @@
         </h2>
     </header>
 
-    <div style="text-align: center;">
+    <div class="section">
         <h2>
-            <a href="gallery-images.html" id="viewAll">
-                📸 Ganesha Images 2025 Link 🔗
-            </a><br>
-            <a href="gallery-videos.html" id="viewAll">
-                🎬 Ganesha Videos 2025 Link 🔗
-            </a><br>
-            <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-qr/King_Of_Rakhodiya.png"
-                alt="Card image" width="320" height="360"><br>
-            Website Scanner<br>
+            <a href="gallery-images.html">📸 Ganesha Images 2025 Link 🔗</a><br>
+            <a href="gallery-videos.html">🎬 Ganesha Videos 2025 Link 🔗</a>
         </h2>
-        <!-- Iframe Google Map -->
+        <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-qr/King_Of_Rakhodiya.png"
+            alt="QR Scanner" width="280" height="320">
+        <p>Website Scanner</p>
+
         <div class="map-container">
-            <!-- Replace the src with the embed link you get from Google Maps or use the one below with your coordinates -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.940333498324!2d72.923158!3d20.61401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDM2JzUwLjQiTiA3MsKwNTUnMjMuNCJF!5e1!3m2!1sen!2sin!4v1756992590283!5m2!1sen!2sin"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+                allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <a href="https://maps.app.goo.gl/oewMb4d8L4xP8nZw5" target="_blank" id="viewAll">
-            Google Map Link 🔗
-        </a>
+        <a href="https://maps.app.goo.gl/oewMb4d8L4xP8nZw5" target="_blank">Google Map Link 🔗</a>
     </div>
 
     <div class="card">
-        <div class="card-content">
-            <h2 style="text-align: center;">
-                <br>If Image link would not be worked<br>
-                Click below image<br>
-                To open new window<br>
-                <span style="font-size:60px;">&#8595;</span>
-            </h2>
-            <a href="gallery-images.html" target="_blank" alt="Card image">
-                <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-home/Rakhodiya-Talav.jpg"
-                    alt="Card image" />
-            </a>
-        </div>
+        <h2>If image link doesn’t work<br>Click below image 👇</h2>
+        <a href="gallery-images.html" target="_blank">
+            <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-home/Rakhodiya-Talav.jpg"
+                alt="Rakhodiya Talav" style="max-width:100%; border-radius:15px;">
+        </a>
     </div>
 
-    <div style="text-align: center;">
-        <h2>
-            <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-instagram/Instagram_Scanner.jpg"
-                alt="Card image" width="320" height="360"><br>
-            Instagram Scanner<br>
-            <!-- Add font awesome icons -->
-            <a href="https://www.instagram.com/king_of_rakhodiya_/" target="_blank" id="viewAll">
-                <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-instagram/Instagram_icon.png"
-                    alt="Insta image" width="60" height="60">
-            </a><br>
-            Instagram Handler
-        </h2>
+    <div class="section">
+        <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-instagram/Instagram_Scanner.jpg"
+            alt="Instagram QR" width="280" height="320">
+        <p>Instagram Scanner</p>
+        <a href="https://www.instagram.com/king_of_rakhodiya_/" target="_blank">
+            <img src="https://raw.githubusercontent.com/vimal-tech-starter/ganesha-images-2025/refs/heads/main/images-instagram/Instagram_icon.png"
+                alt="Instagram" width="60" height="60">
+        </a>
+        <p>Instagram Handler</p>
     </div>
 
-    <!-- footer -->
     <footer>
         <h4>
             ઐતિહાસિક પુનરુત્થાન: ૧૮૯૩માં લોકમાન્ય તિલક દ્વારા એકતા માટે<br>
@@ -86,24 +77,16 @@
             ગાયત્રી મંદિરની બાજુમાં, વલસાડ-396001, ગુજરાત-ભારત.
         </h3>
         <p>
-            <a href="https://vimaltech.dev/" target="_blank" alt="Card image">&copy; 2025 Vimal Patel | Java
-                Developer</a>
+            <a href="https://vimaltech.dev/" target="_blank">&copy; 2025 Vimal Patel | Java Developer</a>
         </p>
     </footer>
 
-    <!-- Floating dark mode button -->
+    <!-- Floating Buttons -->
     <button id="darkModeToggle">🌙</button>
-
-    <!-- Floating scroll-to-top button -->
     <button id="scrollTopBtn">⬆️</button>
 
     <!-- JS -->
-    <script src="js/api.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="js/lightbox.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/darkmode.js"></script>
-    <script src="js/scrollup.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

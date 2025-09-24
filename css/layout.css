@@ -1,0 +1,79 @@
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #222;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Sections */
+.section {
+    text-align: center;
+    padding: 2rem;
+    animation: fadeUp 1s ease-in-out;
+}
+
+.section img {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+}
+
+/* Map */
+.map-container {
+    margin: 1.5rem auto;
+    max-width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+
+/* Card */
+.card {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #222;
+    color: #ddd;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+footer h4,
+footer h3 {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #fcb69f;
+}
