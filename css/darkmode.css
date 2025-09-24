@@ -1,0 +1,20 @@
+/* Dark Mode */
+body.dark {
+    background: #121212;
+    color: #e1e1e1;
+}
+
+body.dark header {
+    background: linear-gradient(135deg, #434343, #000000);
+    color: #fff;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    color: #eee;
+}
+
+body.dark footer {
+    background: #000;
+    color: #aaa;
+}
